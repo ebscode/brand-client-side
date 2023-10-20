@@ -18,7 +18,7 @@ const Product = () => {
         </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16 ">
           {
-                loader.map(valu=>(
+                loader && loader.map(valu=>(
                     <ProductCard key={valu._id} it={valu} setdata={setdata} ></ProductCard>
                 
                 ))

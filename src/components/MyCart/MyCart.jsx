@@ -38,7 +38,7 @@ const MyCart = () => {
 
   return (
     <div>
-      {cart.map((item) => (
+      {cart && cart.map((item) => (
         <div key={item._id}>
           <body>
             <div className=" bg-gray-100 pt-20">

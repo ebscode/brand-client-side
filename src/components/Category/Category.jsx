@@ -16,7 +16,7 @@ const Category = ({loader}) => {
         <h1 className="text-3xl text-center font-semibold m-8">FEATURED CATEGORIES</h1>
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4">
             {
-                data.map(get=><Categorycard key={get._id} value={get}  ></Categorycard>)
+                data && data.map(get=><Categorycard key={get._id} value={get}  ></Categorycard>)
             }
            
         </div>

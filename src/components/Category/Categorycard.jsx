@@ -30,9 +30,7 @@ const Categorycard = ({value}) => {
 </button>
 </Link>
 
-{/* {
-    gl.map(item=>setdata(item))
-} */}
+
         </div>
     );
 };

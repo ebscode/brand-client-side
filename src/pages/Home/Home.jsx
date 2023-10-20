@@ -12,7 +12,7 @@ const Home = () => {
 const loader=useLoaderData()
 // console.log(loader)
     return (
-        <div>
+        <div  data-theme="cupcake">
           <Banner></Banner> 
           <Weprovide></Weprovide>
           <Category loader={loader}></Category>

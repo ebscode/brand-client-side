@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   daisyui: {
-    themes: [ "cupcake"],
+    themes: [ "cupcake","dark"],
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
