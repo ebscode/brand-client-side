@@ -139,9 +139,7 @@ const Navbar = () => {
                 {navlink}
               </ul>
             </div>
-            {/* <a className="btn btn-ghost normal-case text-xl">
-              <span className="text-sky-950 font-bold">Event</span> Agency
-            </a> */}
+           
 
             <div>
              <Link to={'/'}> <img className="w-36 " src={img} alt="" /></Link>
