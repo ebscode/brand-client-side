@@ -106,7 +106,7 @@ const Trusted = () => {
             </div>
 
             <div className="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">
-              <img src="" alt="" />
+              <img src="https://i.ibb.co/nPSFRDS/Google-logo.png" alt="" />
             </div>
         </div>
     </div>
