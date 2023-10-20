@@ -28,7 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("http://localhost:5000/product"),
+        loader: () =>
+          fetch(
+            "https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/product"
+          ),
       },
       {
         path: "/login",
@@ -45,7 +48,10 @@ const router = createBrowserRouter([
       {
         path: "/mycart",
         element: <MyCart></MyCart>,
-        loader:()=>fetch('http://localhost:5000/cart')
+        loader: () =>
+          fetch(
+            "https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/cart"
+          ),
       },
       {
         path: "/contacts",
@@ -63,21 +69,34 @@ const router = createBrowserRouter([
         path: "/product/:brandname",
         element: <Product></Product>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/product/${params.brandname}`),
+          fetch(
+            `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/product/${params.brandname}`
+          ),
       },
       {
         path: "/productt/:id",
-        element: <Privateroute><Details></Details></Privateroute>,
+        element: (
+          <Privateroute>
+            <Details></Details>
+          </Privateroute>
+        ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/productt/${params.id}`),
+          fetch(
+            `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/productt/${params.id}`
+          ),
       },
       {
         path: "/producttt/:id",
-        element: <Privateroute><Updateproduct></Updateproduct></Privateroute>,
+        element: (
+          <Privateroute>
+            <Updateproduct></Updateproduct>
+          </Privateroute>
+        ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/producttt/${params.id}`),
+          fetch(
+            `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/producttt/${params.id}`
+          ),
       },
-      
     ],
   },
 ]);

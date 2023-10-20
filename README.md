@@ -1,8 +1,9 @@
-# React + Vite
+* Content Management. Edit website content, images, and banners without technical skills.
+*  the admin panel is user-friendly and responsive on various devices.
+* Product Management. Easily add, edit, and delete products. You can also categorize them, set prices, and manage inventory.
+* Shopping Cart. Allowing customers to add and remove items, view the cart, and proceed to checkout.
+* User Accounts, Enabling users to create accounts, log in, and save their information for future purchases.
+* Responsive Design. Ensuring the website is mobile-friendly for users on different devices
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live link](https://technology-electronics-6f0b8.web.app/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
