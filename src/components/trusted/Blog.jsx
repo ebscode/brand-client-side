@@ -56,7 +56,7 @@ const Blog = () => {
 					<h3 className="flex-1 py-2 text-lg font-semibold leadi">Sony Xperia Pro-II May Shockingly Sport a Dual 1-inch Camera</h3>
 					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
 						<span>June 3, 2023</span>
-						<span>2.3K views</span>
+						<span>4.3K views</span>
 					</div>
 				</div>
 			</article>
