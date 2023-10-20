@@ -69,7 +69,7 @@ const Blog = () => {
 					<a rel="noopener noreferrer" href="#" className="text-xs tracki uppercase hover:underline dark:text-blue-400">read</a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leadi">Surface Laptop 5 – “Premium and simply gorgeous”</h3>
 					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
-						<span>June 4, 2022</span>
+						<span>november 4, 2022</span>
 						<span>2.4K views</span>
 					</div>
 				</div>
