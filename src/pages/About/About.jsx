@@ -8,10 +8,10 @@ const About = () => {
             <section className="mt-8 space-y-8 lg:mt-12">
               <section className="lg:flex lg:items-center gap-10">
                 <div className="lg:w-1/2 text-center ">
-                  <p className="text-lg tracking-wider font-bold text-black ">
+                  <p className="text-lg tracking-wider font-bold text-black dark:text-white ">
                     our ceo
                   </p>
-                  <h2 className="mt-2 text-xl font-light  text-black">
+                  <h2 className="mt-2 text-xl font-light  text-black dark:text-white">
                     "At event management, our mission is clear: to innovate,
                     inspire, and impact. As the CEO, I'm proud to lead a team of
                     dedicated individuals who are passionate about making a
@@ -44,10 +44,10 @@ const About = () => {
                   />
                 </div>
                 <div className="lg:w-1/2 text-center mt-44 ">
-                  <p className="text-lg tracking-wider font-bold text-black ">
+                  <p className="text-lg tracking-wider font-bold text-black dark:text-white">
                     our cxo
                   </p>
-                  <h2 className="mt-2 text-xl font-light  text-black">
+                  <h2 className="mt-2 text-xl font-light  text-black dark:text-white">
                     "At event management, our mission is clear: to innovate,
                     inspire, and impact. As the CEO, I'm proud to lead a team of
                     dedicated individuals who are passionate about making a
