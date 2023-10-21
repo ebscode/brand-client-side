@@ -17,12 +17,12 @@ const Trusted = () => {
            </div>
             <Blog></Blog>
             <section data-aos="fade-up"
-        data-aos-duration="1000" className="bg-[#FAF7F5] ">
+        data-aos-duration="1000" className="bg-[#FAF7F5] dark:bg-gray-900 ">
     <div className="container px-6 py-10 mx-auto">
         <div className="lg:flex lg:items-center">
             <div className="w-full space-y-12 lg:w-1/2 ">
                 <div>
-                    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-gray-800">explore our  <br/> awesome services</h1>
+                    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our  <br/> awesome services</h1>
 
                     <div className="mt-2">
                         <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
@@ -39,9 +39,9 @@ const Trusted = () => {
                     </span>
 
                     <div className="mt-4 md:mx-4 md:mt-0">
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize ">Upgrade Your Lifestyle with Smart Solutions.</h1>
+                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white ">Upgrade Your Lifestyle with Smart Solutions.</h1>
 
-                        <p className="mt-3 text-gray-500 ">
+                        <p className="mt-3 text-gray-500 dark:text-white ">
                         Smart technology offers more reliable security than traditional, manually operated security systems
                         </p>
                     </div>
@@ -55,9 +55,9 @@ const Trusted = () => {
                     </span>
 
                     <div className="mt-4 md:mx-4 md:mt-0">
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize ">24/7 support</h1>
+                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white ">24/7 support</h1>
 
-                        <p className="mt-3 text-gray-500">
+                        <p className="mt-3 text-gray-500 dark:text-white ">
                         24/7 support, often referred to as 24/7 customer support or round-the-clock assistance, is a service provided by many businesses and organizations to ensure that customers or clients
                         </p>
                     </div>
@@ -72,9 +72,9 @@ const Trusted = () => {
                     </span>
 
                     <div className="mt-4 md:mx-4 md:mt-0">
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize ">Secure Payment Processing</h1>
+                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white  ">Secure Payment Processing</h1>
 
-                        <p className="mt-3 text-gray-500 ">
+                        <p className="mt-3 text-gray-500 dark:text-white ">
                         Secure payment processing incorporates fraud detection mechanisms that analyze transaction patterns, monitor for suspicious activity, and apply machine learning algorithms to identify
                         </p>
                     </div>
@@ -94,7 +94,7 @@ const Trusted = () => {
             </div>
 
             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
-              <img src="https://i.ibb.co/Tr2QfRX/Ryzen-Logo-wine.png" alt="" />
+              <img className='dark:bg-white rounded-full w-36' src="https://i.ibb.co/Tr2QfRX/Ryzen-Logo-wine.png" alt="" />
             </div>
 
             <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
@@ -102,7 +102,7 @@ const Trusted = () => {
             </div>
 
             <div className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
-            <img src="https://i.ibb.co/86F0jTs/Sony-Logo-1957.png" alt="" />
+            <img className='dark:bg-white rounded-full w-36'  src="https://i.ibb.co/86F0jTs/Sony-Logo-1957.png" alt="" />
             </div>
 
             <div className="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1">

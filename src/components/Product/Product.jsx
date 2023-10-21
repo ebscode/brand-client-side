@@ -24,8 +24,9 @@ const Product = () => {
                 ))
                 
             }
-            
+           
           </div>
+          
         </div>
     );
 };

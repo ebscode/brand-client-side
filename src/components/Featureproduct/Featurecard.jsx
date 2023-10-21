@@ -12,8 +12,8 @@ const Featurecard = ({data}) => {
     return (
         <div data-aos="fade-up"
         data-aos-duration="1000">
-         <div className="relative flex flex-col text-gray-700 bg-[#FAF7F5] shadow-xl  rounded-xl bg-clip-border">
-  <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
+         <div className="relative flex flex-col shadow-xl text-gray-700 bg-[#FAF7F5] dark:bg-gray-900 dark:text-white dark:border  rounded-xl bg-clip-border">
+  <div className="relative mx-4 mt-4 overflow-hidden   h-96 rounded-xl bg-clip-border">
     <img
       src={data.photoUrl}
       className="object-cover w-full h-full"
@@ -28,7 +28,7 @@ const Featurecard = ({data}) => {
        {data.price} $
       </p>
     </div>
-    <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
+    <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 dark:text-white opacity-75">
     {data.details.slice(0,50)}
     </p>
   </div>

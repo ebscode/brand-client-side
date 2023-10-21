@@ -4,8 +4,9 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode:'class',
   daisyui: {
-    themes: [ "cupcake","dark"],
+    themes: [ "dark",'cupcake'],
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],

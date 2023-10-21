@@ -28,7 +28,7 @@ const MyCart = () => {
           .then((data) => {
             console.log(data);
 
-            const remaining = cart.filter((get) => get._id !== id);
+            const remaining =cart && cart.filter((get) => get._id !== id);
             setcart(remaining);
             Swal.fire("Deleted!", "Your file has been deleted.", "success");
           });

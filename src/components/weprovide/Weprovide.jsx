@@ -13,8 +13,8 @@ const Weprovide = () => {
 },[])
     return (
         <div data-aos="zoom-in-up">
-                <div className="flex justify-center font-semibold text-4xl m-8"><h1>we provide</h1></div>
-            <section className="text-gray-600 body-font">
+                <div className="flex justify-center font-semibold dark:text-white text-4xl m-8"><h1>we provide</h1></div>
+            <section className="text-gray-600 dark:bg-gray-900 body-font">
   <div className="container px-5  ">
 
     <div className="flex flex-wrap -m-4">
@@ -23,8 +23,8 @@ const Weprovide = () => {
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
             <TbTruckDelivery></TbTruckDelivery>
           </div>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">fast delivery</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+          <h2 className="text-lg text-gray-900 dark:text-white font-medium title-font mb-2">fast delivery</h2>
+          <p className="leading-relaxed dark:text-white text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
         </div>
       </div>
       <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -32,8 +32,8 @@ const Weprovide = () => {
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
            <GiPriceTag></GiPriceTag>
           </div>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">best price</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+          <h2 className="text-lg text-gray-900 dark:text-white font-medium title-font mb-2">best price</h2>
+          <p className="leading-relaxed text-base dark:text-white">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
         </div>
       </div>
       <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -41,8 +41,8 @@ const Weprovide = () => {
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
           <GiCalculator></GiCalculator>
           </div>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">budget deals</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+          <h2 className="text-lg dark:text-white text-gray-900 font-medium title-font mb-2">budget deals</h2>
+          <p className="leading-relaxed text-base dark:text-white">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
         </div>
       </div>
     

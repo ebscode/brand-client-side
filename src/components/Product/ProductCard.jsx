@@ -3,6 +3,9 @@ import Banner from "../Banner/Banner";
 import { useEffect } from "react";
 
 const ProductCard = ({it,setdata}) => {
+
+
+  
     useEffect(()=>{
 
 setdata(it)

@@ -5,5 +5,5 @@
 * User Accounts, Enabling users to create accounts, log in, and save their information for future purchases.
 * Responsive Design. Ensuring the website is mobile-friendly for users on different devices
 
-[Live link](https://technology-electronics-6f0b8.web.app/)
+[Live link](https://lively-bavarois-b5d80e.netlify.app/)
 
