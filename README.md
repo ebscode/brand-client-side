@@ -5,5 +5,5 @@
 * User Accounts, Enabling users to create accounts, log in, and save their information for future purchases.
 * Responsive Design. Ensuring the website is mobile-friendly for users on different devices
 
-[Live link](https://lively-moonbeam-091ae5.netlify.app/)
+[Live link](https://statuesque-toffee-a70d8a.netlify.app/)
 

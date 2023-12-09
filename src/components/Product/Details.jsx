@@ -19,16 +19,13 @@ const Details = () => {
     const data = { _id, productName, brandName, productType, price, photoUrl };
     console.log(data);
 
-    fetch(
-      "https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/cart",
-      {
-        method: "post",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(data),
-      }
-    )
+    fetch("https://technology-electronics.vercel.app/cart", {
+      method: "post",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
       .then((res) => res.json())
       .then((sata) => {
         Swal.fire("added product successfully!", "product add !", "success");

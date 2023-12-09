@@ -18,17 +18,14 @@ const MyCart = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(
-          `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/cart/${id}`,
-          {
-            method: "DELETE",
-          }
-        )
+        fetch(`https://technology-electronics.vercel.app/cart/${id}`, {
+          method: "DELETE",
+        })
           .then((res) => res.json())
           .then((data) => {
             console.log(data);
 
-            const remaining =cart && cart.filter((get) => get._id !== id);
+            const remaining = cart?.filter((get) => get._id !== id);
             setcart(remaining);
             Swal.fire("Deleted!", "Your file has been deleted.", "success");
           });
@@ -38,7 +35,7 @@ const MyCart = () => {
 
   return (
     <div>
-      {cart && cart.map((item) => (
+      {cart?.map((item) => (
         <div key={item._id}>
           <body>
             <div className=" bg-gray-100 pt-20">

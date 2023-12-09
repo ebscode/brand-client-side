@@ -29,9 +29,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () =>
-          fetch(
-            "https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/product"
-          ),
+          fetch("https://technology-electronics.vercel.app/product"),
       },
       {
         path: "/login",
@@ -48,10 +46,7 @@ const router = createBrowserRouter([
       {
         path: "/mycart",
         element: <MyCart></MyCart>,
-        loader: () =>
-          fetch(
-            "https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/cart"
-          ),
+        loader: () => fetch("https://technology-electronics.vercel.app/cart"),
       },
       {
         path: "/contacts",
@@ -70,7 +65,7 @@ const router = createBrowserRouter([
         element: <Product></Product>,
         loader: ({ params }) =>
           fetch(
-            `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/product/${params.brandname}`
+            `https://technology-electronics.vercel.app/product/${params.brandname}`
           ),
       },
       {
@@ -82,7 +77,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/productt/${params.id}`
+            `https://technology-electronics.vercel.app/productt/${params.id}`
           ),
       },
       {
@@ -94,7 +89,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://technology-electronics-ij95miteu-shohebs-projects.vercel.app/producttt/${params.id}`
+            `https://technology-electronics.vercel.app/producttt/${params.id}`
           ),
       },
     ],
