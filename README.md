@@ -4,6 +4,7 @@
 * Shopping Cart. Allowing customers to add and remove items, view the cart, and proceed to checkout.
 * User Accounts, Enabling users to create accounts, log in, and save their information for future purchases.
 * Responsive Design. Ensuring the website is mobile-friendly for users on different devices
+* This project base on MERN technology
 
 [Live link](https://statuesque-toffee-a70d8a.netlify.app/)
 
